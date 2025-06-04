@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px) {
+  .stars-review-list {
+    margin-bottom: 12px;
+    line-height: 0;
+  }
+  .feedback-list-item:last-child .stars-review-list {
+    margin-bottom: 24px;
+  }
+  .feedback-list-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+.section-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.star-fill {
+  fill: #3ac04c;
+}
+/* mobile */
+.review-describtion {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  margin-bottom: 12px;
+}
+.reviewers-name {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.stars-review-list {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .feedback-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.feedback-list-item {
+  width: 179px;
+}

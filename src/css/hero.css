@@ -45,7 +45,6 @@
   line-height: 1.6;
   color: var(--color-white);
   margin-bottom: 24px;
-
   transition: border-color 250ms linear, color 250ms linear,
     background 250ms linear;
 }
@@ -55,6 +54,7 @@
   color: var(--color-neutral-darkest);
   background: transparent;
 }
+
 .hero__image-wrapper {
   justify-self: center;
 }
