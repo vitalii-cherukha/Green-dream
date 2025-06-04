@@ -104,6 +104,7 @@
 @media screen and (min-width: 1440px) {
   .hero-buynow-title {
     width: 640px;
+    font-size: 56px;
   }
   .hero-buynow {
     width: 640px;
