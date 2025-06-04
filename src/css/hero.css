@@ -1,0 +1,113 @@
+/* HERO STYLES */
+/* mob */
+@media screen {
+}
+.hero-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: var(--color-scheme-1-background);
+}
+
+.hero-buynow-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 40px;
+
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--color-scheme-2-text);
+
+  margin-bottom: 20px;
+}
+.hero-buynow {
+}
+.hero-buynow-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.6;
+  color: var(--color-scheme-2-text);
+
+  margin-bottom: 24px;
+}
+.hero-buy-button {
+  display: block;
+  border: 1px solid var(--color-neutral-darkest);
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: 288px;
+  height: 50px;
+  background: var(--color-neutral-darkest);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+  color: var(--color-white);
+  margin-bottom: 24px;
+  transition: border-color 250ms linear, color 250ms linear,
+    background 250ms linear;
+}
+.hero-buy-button:hover,
+.hero-buy-button:focus {
+  border-color: var(--color-neutral-darkest);
+  color: var(--color-neutral-darkest);
+  background: transparent;
+}
+
+.hero__image-wrapper {
+  justify-self: center;
+}
+.hero-image {
+  border-radius: 40px;
+}
+/* tab */
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 32px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .hero-buynow-title {
+    width: 340px;
+  }
+  .hero-buynow {
+    width: 340px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-buynow-text {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+  .hero-buy-button {
+    padding: 12px 24px;
+    /* 148>150 */
+    width: 150px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    /* white-space: nowrap; */
+    line-height: 1.6;
+  }
+  .hero-image {
+    display: block;
+  }
+}
+/* Styles for Desktop devices */
+@media screen and (min-width: 1440px) {
+  .hero-buynow-title {
+    width: 640px;
+  }
+  .hero-buynow {
+    width: 640px;
+  }
+}
