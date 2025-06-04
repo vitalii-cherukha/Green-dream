@@ -49,6 +49,45 @@
   --color-error-red: #d64040;
 }
 
+/* Typography from mockup */
+:root {
+  --text-regular-normal: 400 16px / 1.6 'Fira Sans', sans-serif;
+  --text-medium-normal: 400 18px / 1.6 'Fira Sans', sans-serif;
+
+  --heading-desktop-h1: 700 56px / 1.2 "Comfortaa", sans-serif;
+  --heading-desktop-h2: 700 48px / 1.2 "Comfortaa", sans-serif;
+  --heading-mobile-h1: 700 40px / 1.2 "Comfortaa", sans-serif;
+  --heading-mobile-h2: 700 36px / 1.2 "Comfortaa", sans-serif;
+
+  --heading-desktop-tagline: 600 16px / 1.5 "Fira Sans", sans-serif;
+  
+  
+}
+
+/* Typography by element */
+:root {
+--text-header-menu-all: var(--text-regular-normal);
+--text-button-all: var(--text-regular-normal);
+--text-hero-h1-desktop: var(--heading-desktop-h1);
+--text-hero-h1-tab-mobile: var(--heading-mobile-h1);
+--text-hero-normal-desktop-tab: var(--text-medium-normal);
+--text-hero-normal-mobile: var(--text-regular-normal);
+--text-about-tagline-all: var(--heading-desktop-tagline);
+--text-about-heading-desktop: var(--heading-desktop-h1);
+--text-about-heading-tab-mobile: var(--heading-mobile-h2);
+--text-about-normal-desktop-tab: var(--text-medium-normal);
+--text-about-normal-mobile: var(--text-regular-normal);
+--text-advantages-tagline-all: var(--heading-desktop-tagline);
+--text-advangages-heading-desktop: var(--heading-desktop-h2);
+--text-advangages-heading-tab-mobile: var(--heading-mobile-h2);
+
+}
+
+
+
+
+
+
 
 :root {
   /* Typography */
@@ -56,6 +95,5 @@
   --second-family: 'Comfortaa', sans-serif;
 
   --main-text-color: #fff;
-
 
 }
