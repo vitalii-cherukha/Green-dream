@@ -1,15 +1,8 @@
+/* mobile
 .feedback-section {
-  background-color: #ebf8ed;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-.container {
-  width: 320px;
-  padding: 0 16px;
-}
-/* mobile */
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */
 .section-title {
   font-family: 'Comfortaa', sans-serif;
   font-size: 36px;
@@ -21,6 +14,14 @@ ul {
 /* mobile */
 .stars-review-list {
   margin-bottom: 12px;
+  line-height: 0;
+}
+.feedback-list-item:last-child .stars-review-list {
+  margin-bottom: 24px;
+}
+
+.star-fill {
+  fill: #3ac04c;
 }
 /* mobile */
 .review-describtion {
