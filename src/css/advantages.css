@@ -1,15 +1,17 @@
+/*  ============= ADVANTAGE SECTION =============  */
 .advantages {
   margin: 0 auto;
-}
-.container {
-  padding: 32px 16px;
   width: 320px;
   background: #ebf8ed;
+}
+.container.advantages {
+  padding: 32px 16px;
 }
 .advantages-title-blok {
   margin-bottom: 48px;
 }
 .advantages-subtitle {
+  display: inline-block;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -40,6 +42,10 @@
 }
 .advantages-list-item {
 }
+.advantage-image {
+  border-radius: 50%;
+  overflow: hidden;
+}
 .advantages-list-title {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
@@ -57,3 +63,17 @@
   line-height: 1.6;
   color: #030a06;
 }
+
+@media screen and (min-width: 768px) {
+  .container.advantages {
+    padding: 64px 32px;
+    min-width: 768px;
+  }
+  .advantages-list-description {
+    font-size: 18px;
+  }
+  .advantages-list-description {
+    padding-bottom: 16px;
+  }
+}
+/*  =============/ ADVANTAGE SECTION =============  */
