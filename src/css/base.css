@@ -1,1 +1,9 @@
-:root {}
+:root {
+  /* Typography */
+  --font-family: 'Fira Sans', sans-serif;
+  --second-family: 'Comfortaa', sans-serif;
+
+  --main-text-color: #fff;
+
+
+}
