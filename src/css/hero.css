@@ -1,7 +1,6 @@
 /* HERO STYLES */
 /* mob */
-@media screen {
-}
+
 .hero-section {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -19,8 +18,7 @@
 
   margin-bottom: 20px;
 }
-.hero-buynow {
-}
+
 .hero-buynow-text {
   font-family: var(--font-family);
   font-weight: 400;
@@ -55,7 +53,7 @@
   background: transparent;
 }
 
-.hero__image-wrapper {
+.hero-image-wrapper {
   justify-self: center;
 }
 .hero-image {
