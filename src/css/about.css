@@ -5,12 +5,17 @@
   --main-text-color: #fff;
 }
 
+<<<<<<< Updated upstream
+/* .container .about-section {
+} */
+=======
 .container .about-section {
 }
+>>>>>>> Stashed changes
 .about-section-subtitle {
   font-weight: 600;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   text-align: center;
   font-family: var(--font-family);
   color: var(--main-text-color);
@@ -19,7 +24,7 @@
 .about-section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
   font-family: var(--second-family);
@@ -28,7 +33,7 @@
 .about-section-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.6;
   text-align: center;
   font-family: var(--font-family);
   color: var(--main-text-color);
