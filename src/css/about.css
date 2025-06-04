@@ -1,0 +1,35 @@
+/* ========VARIABLES======== */
+:root {
+  --font-family: 'Fira Sans', sans-serif;
+  --second-family: 'Comfortaa', sans-serif;
+  --main-text-color: #fff;
+}
+
+.container .about-section {
+}
+.about-section-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+}
+
+.about-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  font-family: var(--second-family);
+  color: var(--main-text-color);
+}
+.about-section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+}
