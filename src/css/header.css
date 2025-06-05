@@ -9,7 +9,12 @@
   align-items: center;
   width: 100%;
   margin: 0 4px;
+}
 
+@media screen and (min-width: 1440px) {
+  .navigation {
+    justify-content: flex-start;
+  }
 }
 
 .header-logo {
@@ -25,19 +30,27 @@
   .nav-menu {
     display: flex;
     gap: 32px;
+    margin: 0 auto;
   };
 }
 
-.contacts {
+.nav-link {
+  font: var(--text-regular-normal);
+}
+
+.contact-list {
   display: none;
 }
 
 @media screen and (min-width: 1440px) {
-  .contacts {
+  .contact-list {
     display: flex;
     gap: 16px;
-  };
+  }
+}
 
+.contact-link {
+  font: var(--text-regular-normal);
 }
 
 .mobile-menu-icon {
