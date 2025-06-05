@@ -1,6 +1,7 @@
-
-.footer-container {
+.footer {
     background-color: #75d281;
+}
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,10 +9,14 @@
 }
 
 /* ----MENU---- */
-
-.footer-logo {}
-
-.f-logo-link-icon {}
+.footer-menu-sect {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 48px;
+    margin-top: 48px;
+}
 
 .footer-menu {
     display: flex;
@@ -29,10 +34,6 @@
     color: #030a06 ;
 }
 
-.footer-social-links {
-
-}
-
 .f-social-links {
     display: flex;
     align-items: flex-start;
@@ -41,13 +42,9 @@
     gap: 12px;
 }
 
-.f-social-links-item {}
-
 .f-social-links-icon {
     fill: #030a06;
 }
-
-
 
 
 /* ----CONTACTS---- */
@@ -57,6 +54,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
+    margin-bottom: 48px;
 }
 
 .divider {
@@ -82,15 +80,95 @@
     color: #030a06 ;
 }
 
-.f-address-link-item-tel {}
-
-.f-address-link-item-mail {}
-
-
 .f-copyright {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.6;
     color: #030a06;
+}
+
+/* ----Tablet---- */
+
+@media screen and (min-width: 768px) {
+   .footer-container {
+    gap: 24px;
+   }
+    
+   .footer-menu-sect {
+     gap: 32px;
+     margin-top: 64px;
+   } 
+
+    .footer-logo-link {
+        width: 164px;
+        height: 70px;
+    }
+    
+    .footer-menu {
+        flex-direction: row;
+    }
+    
+    .f-social-links-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footer-contacts {
+        gap: 16px;
+        margin-bottom: 64px;
+    }
+    
+    .divider {
+        width: 704px;
+    }
+    
+    .footer-address {
+        flex-direction: row;
+        gap: 32px;
+    }
+}
+
+/* ---Desktop--- */
+
+@media screen and (min-width: 1440px){
+.footer-container {
+            gap: 52px;
+        }
+    
+.footer-menu-sect {
+            flex-direction: row;
+            margin-top: 80px;
+            justify-content: space-between;
+        }
+    
+.footer-logo {
+            width: 341px;
+            justify-content: flex-start;
+        }
+    
+.footer-logo-link {
+            width: 164px;
+            height: 70px;
+        }
+    
+.f-social {
+            width: 341px;
+        }
+    
+.f-social-links {
+            justify-content: flex-end;
+        }
+    
+.f-social-links-icon {
+            width: 24px;
+            height: 24px;
+        }
+    
+.divider {
+            width: 1312px;
+        }
+    
+.footer-contacts {
+            margin-bottom: 80px;   }
 }
