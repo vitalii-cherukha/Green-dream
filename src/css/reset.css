@@ -33,7 +33,7 @@ img {
   height: auto;
 }
 
-.body {
+body {
   font-family: var(--font-family);
   background-color: var(--color-body-bg);
 }
