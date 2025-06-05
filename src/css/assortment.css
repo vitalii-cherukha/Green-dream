@@ -27,11 +27,9 @@
   min-height: 530px;
 }
 .assortment-img-container {
-  border-radius: 32px;
-
-  background-color: #030a06;
 }
 .assortment-img {
+  border-radius: 32px;
 }
 .assortment-item-container {
   display: flex;
@@ -63,6 +61,18 @@
   padding: 8px 15px;
   width: 288px;
   height: 40px;
+  transition: color var(--transition-base), border-color var(--transition-base);
+}
+
+.assortment-item-btn:hover,
+.assortment-item-btn:focus {
+  color: #030a0680;
+  border-color: #030a0680;
+}
+
+.assortment-item-btn:active {
+  color: rgba(17, 57, 22, 0.6);
+  border-color: rgba(17, 57, 22, 0.6);
 }
 
 @media screen and (min-width: 768px) {
