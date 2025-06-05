@@ -33,6 +33,11 @@ img {
   height: auto;
 }
 
+.body {
+  font-family: var(--font-family);
+  background-color: var(--color-body-bg);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

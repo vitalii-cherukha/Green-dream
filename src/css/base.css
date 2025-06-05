@@ -1,4 +1,7 @@
 :root {
+  --color-body-bg: var(--color-emerald-lightest);
+  --color-header-footer-bg: var(--color-emerald-light);
+
   --color-scheme-1-background: var(--color-emerald-lightest);
   --color-neutral-darkest: #030a06;
   --color-scheme-1-border: var(--opacity-neutral-darkest-15);
@@ -123,13 +126,9 @@
 --transition-base: 250ms ease;
 }
 
-
 /* Old variables */
 :root {
   /* Typography */
   --font-family: 'Fira Sans', sans-serif;
   --second-family: 'Comfortaa', sans-serif;
-
-  --main-text-color: #fff;
-
 }
