@@ -5,10 +5,6 @@
 
 .assortment-title {
   font: var(--heading-mobile-h2);
-  /* font-family: 'Comfortaa', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2; */
   letter-spacing: 0.01em;
   text-align: center;
   margin-bottom: 32px;
@@ -27,8 +23,7 @@
   width: 100%;
   min-height: 530px;
 }
-.assortment-img-container {
-}
+
 .assortment-img {
   border-radius: 32px;
 }
@@ -110,7 +105,6 @@
 
   .assortment-title {
     font: var(--heading-desktop-h2);
-    /* font-size: 48px; */
   }
 
   .assortment-list-item {
