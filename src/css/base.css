@@ -1,1 +1,134 @@
-:root {}
+:root {
+  --color-body-bg: var(--color-emerald-lightest);
+  --color-header-footer-bg: var(--color-emerald-light);
+
+  --color-scheme-1-background: var(--color-emerald-lightest);
+  --color-neutral-darkest: #030a06;
+  --color-scheme-1-border: var(--opacity-neutral-darkest-15);
+  --color-scheme-1-text: var(--color-neutral-darkest);
+  --color-neutral-lighter: #d9dad9;
+  --color-white: #fff;
+  --color-neutral-lightest: #f2f2f2;
+  --color-neutral-light: #b3b5b4;
+  --color-neutral: #818482;
+  --color-neutral-dark: #4e5350;
+  --color-neutral-darker: #1c221e;
+  --opacity-transparent: rgba(255, 255, 255, 0);
+  --color-scheme-1-foreground: var(--color-emerald-lighter);
+  --color-scheme-1-accent: var(--color-neutral-darkest);
+  --opacity-white-5: rgba(255, 255, 255, 0.05);
+  --opacity-white-10: rgba(255, 255, 255, 0.1);
+  --opacity-white-15: rgba(255, 255, 255, 0.15);
+  --opacity-white-20: rgba(255, 255, 255, 0.2);
+  --opacity-white-30: rgba(255, 255, 255, 0.3);
+  --opacity-white-40: rgba(255, 255, 255, 0.4);
+  --opacity-white-50: rgba(255, 255, 255, 0.5);
+  --opacity-white-60: rgba(255, 255, 255, 0.6);
+  --opacity-neutral-darkest-5: rgba(3, 10, 6, 0.05);
+  --opacity-neutral-darkest-10: rgba(3, 10, 6, 0.1);
+  --opacity-neutral-darkest-15: rgba(3, 10, 6, 0.15);
+  --opacity-neutral-darkest-20: rgba(3, 10, 6, 0.2);
+  --opacity-neutral-darkest-30: rgba(3, 10, 6, 0.3);
+  --opacity-neutral-darkest-40: rgba(3, 10, 6, 0.4);
+  --opacity-neutral-darkest-50: rgba(3, 10, 6, 0.5);
+  --opacity-neutral-darkest-60: rgba(3, 10, 6, 0.6);
+  --color-emerald-lightest: #ebf8ed;
+  --color-emerald-lighter: #d7f2db;
+  --color-emerald-light: #75d281;
+  --color-emerald: #3ac04c;
+  --color-emerald-dark: #2e993c;
+  --color-emerald-darker: #174c1e;
+  --color-emerald-darkest: #113916;
+  --color-scheme-2-text: var(--color-neutral-darkest);
+  --color-scheme-2-background: var(--color-emerald-light);
+  --color-scheme-2-border: var(--opacity-neutral-darkest-15);
+  --color-scheme-2-accent: var(--color-neutral-darkest);
+  --color-scheme-2-foreground: var(--color-emerald);
+  --color-scheme-3-text: var(--color-neutral-darkest);
+  --color-scheme-3-background: var(--color-white);
+  --color-scheme-3-border: var(--opacity-neutral-darkest-15);
+  --color-scheme-3-accent: var(--color-neutral-darkest);
+  --color-scheme-3-foreground: var(--color-neutral-lightest);
+  --color-error-red: #d64040;
+}
+
+/* Typography from mockup */
+:root {
+  --text-regular-normal: 400 16px / 1.6 'Fira Sans', sans-serif;
+  --text-regular-semi-bold: 600 16px / 1.6 "Fira Sans", sans-serif;
+  --text-medium-normal: 400 18px / 1.6 'Fira Sans', sans-serif;
+  --text-medium-semi-bold: 600 18px / 1.6 "Fira Sans", sans-serif;
+  --text-small-normal: 400 14px / 1.6 "Fira Sans", sans-serif;
+  --text-large-semi-bold: 600 20px / 1.6 "Fira Sans", sans-serif;
+
+  --heading-desktop-h1: 700 56px / 1.2 "Comfortaa", sans-serif;
+  --heading-desktop-h2: 700 48px / 1.2 "Comfortaa", sans-serif;
+  --heading-desktop-h4: 700 32px / 1.4 "Comfortaa", sans-serif;
+  --heading-mobile-h1: 700 40px / 1.2 "Comfortaa", sans-serif;
+  --heading-mobile-h2: 700 36px / 1.2 "Comfortaa", sans-serif;
+  --heading-mobile-h4: 700 24px / 1.4 "Comfortaa", sans-serif;
+  --heading-desktop-h6: 700 20px / 1.4 "Comfortaa", sans-serif;
+
+  --heading-desktop-tagline: 600 16px / 1.5 "Fira Sans", sans-serif;
+}
+
+/* Typography by element [--text-section-element-device]*/
+:root {
+--text-header-menu-all: var(--text-regular-normal);
+--text-button-all: var(--text-regular-normal);
+--text-hero-h1-desktop: var(--heading-desktop-h1);
+--text-hero-h1-mobile-tab: var(--heading-mobile-h1);
+--text-hero-normal-tab-desktop: var(--text-medium-normal);
+--text-hero-normal-mobile: var(--text-regular-normal);
+
+--text-about-tagline-all: var(--heading-desktop-tagline);
+--text-about-heading-desktop: var(--heading-desktop-h1);
+--text-about-heading-mobile-tab: var(--heading-mobile-h2);
+--text-about-normal-tab-desktop: var(--text-medium-normal);
+--text-about-normal-mobile: var(--text-regular-normal);
+
+--text-advantages-tagline-all: var(--heading-desktop-tagline);
+--text-advangages-heading-desktop: var(--heading-desktop-h2);
+--text-advangages-heading-mobile-tab: var(--heading-mobile-h2);
+--text-advantages-normal-tab-desktop: var(--text-medium-normal);
+--text-advantages-normal-mobile: var(--text-regular-normal);
+--text-advantages-subheading-mobile-tab: var(--heading-mobile-h4);
+--text-advantages-subheading-desktop: var(--heading-desktop-h4);
+--text-advantages-normal-all: var(--text-regular-normal);
+--text-assortment-heading-mobile-tab: var(--heading-mobile-h2);
+--text-assortment-heading-desktop: var(--heading-desktop-h2);
+--text-assortment-name-all: var(--text-medium-semi-bold);
+--text-assortment-normal-all: var(--text-small-normal);
+--text-assortment-price-all: var(--text-large-semi-bold);
+
+--text-gallery-heading-mobile-tab: var(--heading-mobile-h2);
+--text-gallery-heading-desktop: var(--heading-desktop-h2);
+--text-gallery-normal-all: var(--text-medium-normal);
+
+--text-feedbacks-heading-mobile-tab: var(--heading-mobile-h2);
+--text-feedbacks-heading-desktop: var(--heading-desktop-h2);
+--text-feedbacks-normal-all: var(--heading-desktop-h6);
+--text-feedbacks-name-all: var(--text-regular-semi-bold);
+
+--text-support-heading-tab-mobile: var(--heading-mobile-h2);
+--text-support-heading-desktop: var(--heading-desktop-h2);
+--text-support-normal-all: var(--text-medium-normal);
+--text-support-form-label-all: var(--text-regular-normal);
+--text-support-form-placeholder-all: var(--text-regular-normal);
+
+--text-footer-menu-items-all: var(--text-regular-normal);
+--text-footer-contacs-all: var(--text-regular-normal);
+--text-footer-copyright-all: var(--text-small-normal);
+}
+
+/* Basic transition */
+:root {
+--transition-base: 250ms ease;
+}
+
+/* Old variables */
+:root {
+  /* Typography */
+  --font-family: 'Fira Sans', sans-serif;
+  --second-family: 'Comfortaa', sans-serif;
+}
