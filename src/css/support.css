@@ -204,7 +204,7 @@
     font: var(--text-support-heading-desktop);
   }
 
-  .container div {
+  .support-container div {
     width: calc((100% - 24px) / 2);
   }
 
