@@ -6,7 +6,7 @@
   width: 100%;
   background-color: var(--color-body-bg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/img/jpg/feature/feature-mob.jpg);
+    url(/img/webp/about/feature-mob.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,7 +39,7 @@
 @media screen and (min-resolution: 192dpi) {
   .about-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/img/jpg/feature/feature-mob@2x.jpg);
+      url(/img/webp/about/feature-mob@2x.webp);
   }
 }
 
@@ -47,7 +47,7 @@
 @media screen and (min-width: 768px) {
   .about-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/img/jpg/feature/feature-tab.jpg);
+      url(/img/webp/about/feature-tab.webp);
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -67,7 +67,7 @@
   @media screen and (min-resolution: 192dpi) {
     .about-section {
       background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(/img/jpg/feature/feature-tab@2x.jpg);
+        url(/img/webp/about/feature-tab@2x.webp);
     }
   }
 }
@@ -76,14 +76,14 @@
 @media screen and (min-width: 1440px) {
   .about-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/img/jpg/feature/feature-pc.jpg);
+      url(/img/webp/about/feature-pc.webp);
     padding-top: 112px;
     padding-bottom: 112px;
   }
   @media screen and (min-resolution: 192dpi) {
     .about-section {
       background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(/img/jpg/feature/feature-pc@2x.jpg);
+        url(/img/webp/about/feature-pc@2x.webp);
     }
   }
 }
