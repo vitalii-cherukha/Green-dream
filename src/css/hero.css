@@ -34,13 +34,18 @@
     color: var(--color-white);
     margin-bottom: 24px;
     transition: border-color var(--transition-base),
-      color var(--transition-base), background var(--transition-base);
+      color var(--transition-base), background var(--transition-base),
+      opacity var(--transition-base);
   }
   .hero-buy-button:hover,
   .hero-buy-button:focus {
-    border-color: var(--color-neutral-darkest);
-    color: var(--color-neutral-darkest);
-    background: transparent;
+    opacity: 0.5;
+  }
+  .hero-buy-button:active {
+    border-color: var(--color-emerald-darkest);
+    background: var(--color-emerald-darkest);
+    color: var(--color-white);
+    opacity: 0.6;
   }
 
   .hero-image-wrapper {
