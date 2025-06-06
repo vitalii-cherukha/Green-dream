@@ -4,11 +4,12 @@
 }
 
 .assortment-title {
-  font-family: 'Comfortaa', sans-serif;
+  font: var(--heading-mobile-h2);
+  /* font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  /* line-height: 1.2;
-  letter-spacing: 0.01em; */
+  line-height: 1.2; */
+  letter-spacing: 0.01em;
   text-align: center;
   margin-bottom: 32px;
 }
@@ -69,10 +70,9 @@
   color: #030a0680;
   border-color: #030a0680;
 }
-
 .assortment-item-btn:active {
-  color: rgba(17, 57, 22, 0.6);
-  border-color: rgba(17, 57, 22, 0.6);
+  color: #11391699;
+  border-color: #11391699;
 }
 
 @media screen and (min-width: 768px) {
@@ -109,7 +109,8 @@
   }
 
   .assortment-title {
-    font-size: 48px;
+    font: var(--heading-desktop-h2);
+    /* font-size: 48px; */
   }
 
   .assortment-list-item {
