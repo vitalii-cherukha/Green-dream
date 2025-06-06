@@ -1,5 +1,5 @@
 .footer {
-    background-color: #75d281;
+    background-color: var(--color-header-footer-bg);
 }
 .footer-container {
     display: flex;
@@ -27,11 +27,8 @@
 }
 
 .f-menu-item {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #030a06 ;
+    font: var(--text-regular-normal);
+    color: var(--color-neutral-darkest);
 }
 
 .f-social-links {
@@ -43,7 +40,7 @@
 }
 
 .f-social-links-icon {
-    fill: #030a06;
+    fill: var(--color-neutral-darkest);
 }
 
 
@@ -58,7 +55,7 @@
 }
 
 .divider {
-    border: 1px solid rgba(3, 10, 6, 0.15);
+    border-top: 1px solid rgba(3, 10, 6, 0.15);
     width: 280px;
     height: 0px; 
 }
@@ -73,19 +70,13 @@
 }
 
 .f-address-link {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #030a06 ;
+    font: var(--text-regular-normal);
+    color: var(--color-neutral-darkest) ;
 }
 
 .f-copyright {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.6;
-    color: #030a06;
+    font: var(--text-small-normal);
+    color: var(--color-neutral-darkest);
 }
 
 /* ----Tablet---- */
