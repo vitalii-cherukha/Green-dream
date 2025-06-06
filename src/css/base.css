@@ -54,22 +54,22 @@
 
 /* Typography from mockup */
 :root {
-  --text-regular-normal: 400 16px / 1.6 'Fira Sans', sans-serif;
-  --text-regular-semi-bold: 600 16px / 1.6 "Fira Sans", sans-serif;
-  --text-medium-normal: 400 18px / 1.6 'Fira Sans', sans-serif;
-  --text-medium-semi-bold: 600 18px / 1.6 "Fira Sans", sans-serif;
-  --text-small-normal: 400 14px / 1.6 "Fira Sans", sans-serif;
-  --text-large-semi-bold: 600 20px / 1.6 "Fira Sans", sans-serif;
+--text-regular-normal: 400 16px / 1.625 "Fira Sans", sans-serif;
+--text-regular-semi-bold: 600 16px / 1.625 "Fira Sans", sans-serif;
+--text-medium-normal: 400 18px / 1.61111 "Fira Sans", sans-serif;
+--text-medium-semi-bold: 600 18px / 1.61111 "Fira Sans", sans-serif;
+--text-small-normal: 400 14px / 1.57143 "Fira Sans", sans-serif;
+--text-large-semi-bold: 600 20px / 1.6 "Fira Sans", sans-serif;
 
-  --heading-desktop-h1: 700 56px / 1.2 "Comfortaa", sans-serif;
-  --heading-desktop-h2: 700 48px / 1.2 "Comfortaa", sans-serif;
-  --heading-desktop-h4: 700 32px / 1.4 "Comfortaa", sans-serif;
-  --heading-mobile-h1: 700 40px / 1.2 "Comfortaa", sans-serif;
-  --heading-mobile-h2: 700 36px / 1.2 "Comfortaa", sans-serif;
-  --heading-mobile-h4: 700 24px / 1.4 "Comfortaa", sans-serif;
-  --heading-desktop-h6: 700 20px / 1.4 "Comfortaa", sans-serif;
+--heading-desktop-h1: 700 56px / 1.19643 "Comfortaa", sans-serif; 
+--heading-desktop-h2: 700 48px / 1.20833 "Comfortaa", sans-serif; 
+--heading-desktop-h4: 700 32px / 1.40625 "Comfortaa", sans-serif; 
+--heading-mobile-h1: 700 40px / 1.2 "Comfortaa", sans-serif; 
+--heading-mobile-h2: 700 36px / 1.19444 "Comfortaa", sans-serif; 
+--heading-mobile-h4: 700 24px / 1.41667 "Comfortaa", sans-serif; 
+--heading-desktop-h6: 700 20px / 1.4 "Comfortaa", sans-serif; 
 
-  --heading-desktop-tagline: 600 16px / 1.5 "Fira Sans", sans-serif;
+--heading-desktop-tagline: 600 16px / 1.5 "Fira Sans", sans-serif;
 }
 
 /* Typography by element [--text-section-element-device]*/
