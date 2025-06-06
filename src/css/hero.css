@@ -10,19 +10,13 @@
   }
 
   .hero-buynow-title {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.2;
+    font: var(--heading-mobile-h1);
     letter-spacing: 0.01em;
     color: var(--color-scheme-2-text);
   }
 
   .hero-buynow-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
+    font: var(--text-regular-normal);
     color: var(--color-scheme-2-text);
     margin-bottom: 24px;
   }
@@ -34,14 +28,13 @@
     width: 288px;
     height: 50px;
     background: var(--color-neutral-darkest);
-    font-weight: 400;
-    font-size: 16px;
     text-align: center;
-    line-height: 1.6;
+
+    font: var(--text-regular-normal);
     color: var(--color-white);
     margin-bottom: 24px;
-    transition: border-color 250ms linear, color 250ms linear,
-      background 250ms linear;
+    transition: border-color var(--transition-base),
+      color var(--transition-base), background var(--transition-base);
   }
   .hero-buy-button:hover,
   .hero-buy-button:focus {
@@ -75,7 +68,6 @@
   }
   .hero-buynow {
     width: 340px;
-
     display: flex;
     flex-direction: column;
   }
@@ -88,10 +80,8 @@
     /* 148>150 */
     width: 150px;
     height: 50px;
-    font-weight: 400;
-    font-size: 16px;
     /* white-space: nowrap; */
-    line-height: 1.6;
+    font: var(--text-regular-normal);
   }
   .hero-image {
     display: block;
