@@ -16,9 +16,7 @@
 }
 
 .gallery-title {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 36px;
+  font: var(--heading-mobile-h2);
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
@@ -34,29 +32,15 @@
 
 @media screen and (min-width: 1440px) {
   .gallery-title {
-    font-size: 48px;
+    font: var(--heading-desktop-h2);
   }
 }
 
 .gallery-subtitle {
-  font-family: var(--font-family);
+  font: var(--text-medium-normal);
   margin-bottom: 32px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.6;
   text-align: center;
   color: var(--color-scheme-3-text);
-}
-
-@media screen and (min-width: 768px) {
-  .gallery-subtitle {
-    font-size: 18px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .gallery-subtitle {
-  }
 }
 
 .gallery-list {
@@ -109,9 +93,14 @@
   .gallery-list li:nth-child(1),
   .gallery-list li:nth-child(4) {
     grid-column: 1;
+    height: 421.33px;
   }
   .gallery-list li:nth-child(1) {
     grid-row: 2;
+  }
+  .gallery-list li:nth-child(2),
+  .gallery-list li:nth-child(3) {
+    height: 865px;
   }
 }
 
