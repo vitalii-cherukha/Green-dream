@@ -46,12 +46,12 @@
   color: var(--color-white);
   margin-bottom: 24px;
   transition: border-color var(--transition-base),
-    background var(--transition-base), opacity var(--transition-base);
+    background-color var(--transition-base), opacity var(--transition-base);
 }
 .hero-buy-button:hover,
 .hero-buy-button:focus {
   border-color: var(--color-emerald-darkest);
-  background: var(--color-emerald-darkest);
+  background-color: var(--color-emerald-darkest);
   opacity: 0.6;
 }
 .hero-buy-button:active {
