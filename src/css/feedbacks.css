@@ -9,9 +9,7 @@
   }
 }
 .section-title {
-  font-family: var(--second-family);
-  font-size: 36px;
-  line-height: 1.2;
+  font: var(--heading-mobile-h2);
   letter-spacing: 0.01em;
   text-align: center;
   margin-bottom: 32px;
@@ -27,10 +25,7 @@
 }
 
 .review-describtion {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.4;
+  font: var(--heading-desktop-h6);
   letter-spacing: 0.01em;
   margin-bottom: 12px;
 }
