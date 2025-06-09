@@ -11,7 +11,9 @@
   display: flex;
   flex-direction: column;
 }
-
+.hero-buynow-wrapper {
+  margin-bottom: 24px;
+}
 .hero-buynow-title {
   position: relative;
   font-family: var(--second-family);
@@ -44,7 +46,6 @@
   text-align: center;
 
   color: var(--color-white);
-  margin-bottom: 24px;
   transition: border-color var(--transition-base),
     background-color var(--transition-base), opacity var(--transition-base);
 }
@@ -78,9 +79,11 @@
   .hero-buynow-wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
   .hero-buynow-title {
     width: 340px;
+    margin-bottom: 0;
   }
   .hero-buynow-title::after {
     content: '';
