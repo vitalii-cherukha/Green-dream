@@ -24,20 +24,18 @@
   fill: var(--color-emerald);
 }
 
-.review-describtion {
+.review-description {
   font: var(--heading-desktop-h6);
   letter-spacing: 0.01em;
   margin-bottom: 12px;
 }
 @media screen and (min-width: 768px) {
-  .review-describtion {
+  .review-description {
     margin-bottom: 24px;
   }
 }
 .reviewers-name {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.6;
+  font: var(--text-regular-semi-bold);
 }
 .stars-review-list {
   display: flex;
