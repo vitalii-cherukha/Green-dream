@@ -33,12 +33,12 @@
 }
 .f-menu-item:hover,
 .f-menu-item:focus {
-    color: var(--color-emerald-darkest);
-    opacity: 0.6;
+    color: var(--color-hover-text);
+    
 }
 .f-menu-item:active {
-    color: var(--color-scheme-2-text);
-    opacity: 0.5;
+    color: var(--color-active-text);
+    
 }
 
 .f-social-links {
@@ -86,12 +86,10 @@
 }
 .f-address-link:hover,
 .f-address-link:focus {
-    color: var(--color-emerald-darkest);
-    opacity: 0.6;
+    color: var(--color-hover-text);
 }
 .f-address-link:active {
-    color: var(--color-scheme-2-text);
-    opacity: 0.5;
+    color: var(--color-active-text);
 }
 
 .f-copyright {
