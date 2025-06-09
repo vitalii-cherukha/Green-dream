@@ -1,6 +1,16 @@
 :root {
   --color-body-bg: var(--color-emerald-lightest);
   --color-header-footer-bg: var(--color-emerald-light);
+  
+  --color-hover-text: rgba(17, 57, 22, 0.6);
+  --color-hover-bg: rgba(17, 57, 22, 0.6);
+  --color-hover-border: rgba(17, 57, 22, 0.6);
+
+  --color-active-text: rgba(3, 10, 6, 0.5);
+  --color-active-bg: rgba(3, 10, 6, 0.5);
+  --color-active-border: rgba(3, 10, 6, 0.5);
+
+
 
   --color-scheme-1-background: var(--color-emerald-lightest);
   --color-neutral-darkest: #030a06;
