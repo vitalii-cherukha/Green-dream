@@ -46,7 +46,6 @@
   text-align: center;
 
   color: var(--color-white);
-  margin-bottom: 24px;
   transition: border-color var(--transition-base),
     background-color var(--transition-base), opacity var(--transition-base);
 }
