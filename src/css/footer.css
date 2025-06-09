@@ -15,7 +15,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 48px;
-    margin-top: 48px;
+    padding-top: 48px;
 }
 
 .footer-menu {
@@ -51,8 +51,15 @@
 
 .f-social-links-icon {
     fill: var(--color-neutral-darkest);
+    transition: fill var(--transition-base);
 }
-
+.f-social-links-icon:hover,
+.f-social-links-icon:focus {
+    fill: var(--color-hover-text);
+}
+.f-social-links-icon:active {
+    fill: var(--color-active-text);
+}
 
 /* ----CONTACTS---- */
 .footer-contacts {
@@ -61,7 +68,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
 }
 
 .divider {
@@ -106,7 +113,7 @@
     
 .footer-menu-sect {
     gap: 32px;
-    margin-top: 64px;
+    padding-top: 64px;
    } 
 
 .footer-logo-link {
@@ -125,7 +132,7 @@
     
 .footer-contacts {
     gap: 16px;
-    margin-bottom: 64px;
+    padding-bottom: 64px;
     }
     
 .divider {
@@ -147,7 +154,7 @@
     
 .footer-menu-sect {
     flex-direction: row;
-    margin-top: 80px;
+    padding-top: 80px;
     justify-content: space-between;
         }
     
@@ -179,6 +186,6 @@
         }
     
 .footer-contacts {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
         }
 }
