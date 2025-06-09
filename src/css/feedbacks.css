@@ -9,42 +9,36 @@
   }
 }
 .section-title {
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 36px;
-  line-height: 1.2;
+  font: var(--heading-mobile-h2);
   letter-spacing: 0.01em;
   text-align: center;
   margin-bottom: 32px;
 }
 @media screen and (min-width: 1440px) {
   .section-title {
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 48px;
+    font: var(--heading-desktop-h2);
     margin-bottom: 80px;
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .star-fill {
-  fill: #3ac04c;
+  fill: var(--color-emerald);
 }
 
-.review-describtion {
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.4;
+.review-description {
+  font: var(--heading-desktop-h6);
   letter-spacing: 0.01em;
   margin-bottom: 12px;
 }
 @media screen and (min-width: 768px) {
-  .review-describtion {
+  .review-description {
     margin-bottom: 24px;
   }
 }
 .reviewers-name {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.6;
+  font: var(--text-regular-semi-bold);
 }
 .stars-review-list {
   display: flex;
