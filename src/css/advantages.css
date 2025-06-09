@@ -1,10 +1,12 @@
 /*  ============= ADVANTAGE SECTION =============  */
 .advantages {
+  padding-top: 32px;
+  padding-bottom: 32px;
   background: #ebf8ed;
 }
 .container.advantages {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .advantages-title-blok {
   display: flex;
@@ -19,7 +21,7 @@
   font: var(--text-advangages-heading-mobile-tab);
   letter-spacing: 0.01em;
   color: var(--color-scheme-1-text);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .advantages-list-description {
   font: var(--text-advantages-normal-mobile);
@@ -61,13 +63,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container.advantages {
-    padding-top: 64px; /* 32px;*/
+  .advantages {
+    padding-top: 64px;
     padding-bottom: 64px;
   }
 
   .advantages-title {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
   }
   .advantages-title-blok {
     row-gap: 16px;
