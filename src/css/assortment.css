@@ -62,12 +62,12 @@
 
 .assortment-item-btn:hover,
 .assortment-item-btn:focus {
-  color: #11391699;
-  border-color: #11391699;
+  color: var(--color-hover-text);
+  border-color: var(--color-hover-border);
 }
 .assortment-item-btn:active {
-  color: #030a0680;
-  border-color: #030a0680;
+  color: var(--color-active-text);
+  border-color: var(--color-active-border);
 }
 
 @media screen and (min-width: 768px) {
