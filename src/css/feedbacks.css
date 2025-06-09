@@ -9,7 +9,7 @@
   }
 }
 .section-title {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: var(--second-family);
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -18,17 +18,16 @@
 }
 @media screen and (min-width: 1440px) {
   .section-title {
-    font-family: 'Comfortaa', sans-serif;
     font-size: 48px;
     margin-bottom: 80px;
   }
 }
 .star-fill {
-  fill: #3ac04c;
+  fill: var(--color-emerald);
 }
 
 .review-describtion {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 20px;
   line-height: 1.4;
@@ -41,7 +40,6 @@
   }
 }
 .reviewers-name {
-  font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.6;
