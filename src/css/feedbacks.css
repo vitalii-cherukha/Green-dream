@@ -16,8 +16,11 @@
 }
 @media screen and (min-width: 1440px) {
   .section-title {
-    font-size: 48px;
+    font: var(--heading-desktop-h2);
     margin-bottom: 80px;
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .star-fill {
