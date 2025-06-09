@@ -10,7 +10,7 @@
 }
 .advantages-title-blok {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column; /*-reverse; */
   row-gap: 12px;
 }
 .advantages-subtitle {
