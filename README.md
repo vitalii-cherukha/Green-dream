@@ -23,15 +23,15 @@ I contributed both as a **Scrum Master** and a frontend developer.
 
 ```
 Green-dream/
-│── assets/            # Images, icons, etc.
-│── src/
-│   ├── index.html     # Entry HTML
-│   ├── main.js        # Main JS logic
-│   ├── styles/        # CSS / SCSS files
-│   └── components/    # Modular UI parts
-│── vite.config.js
-│── package.json
-│── README.md
+├─ .github/                # (опційно) CI / workflows / community files
+├─ assets/                 # статичні ресурси (лого, іконки, картинки, fonts)
+├─ src/                    # основні файли проекту
+│  ├─ css/                 # стилі (styles.css або scss файли)
+│  ├─ img/                 # зображення, використовувані в src (hero, cards etc.)
+│  ├─ partials/            # reusable HTML partials (header, footer, components)
+│  ├─ public/              # файли, що потрапляють у root під час деплою (favicon, robots)
+│  ├─ index.html           # головна сторінка (entry)
+│  └─ main.js              # точка входу JS (ініціалізація, modal logic, interactions)
 ```
 👥 My Contributions
 Facilitated agile workflow as Scrum Master (standups, planning, coordination)
@@ -63,15 +63,17 @@ bash
 Копіювати код
 ```
 npm install
-Run dev server
 ```
+Run dev server
+
 
 bash
 Копіювати код
 ```
 npm run dev
-Build for production
 ```
+Build for production
+
 
 bash
 Копіювати код
