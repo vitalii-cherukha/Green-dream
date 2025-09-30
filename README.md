@@ -23,15 +23,14 @@ I contributed both as a **Scrum Master** and a frontend developer.
 
 ```
 Green-dream/
-├─ .github/                # (опційно) CI / workflows / community files
-├─ assets/                 # статичні ресурси (лого, іконки, картинки, fonts)
-├─ src/                    # основні файли проекту
-│  ├─ css/                 # стилі (styles.css або scss файли)
-│  ├─ img/                 # зображення, використовувані в src (hero, cards etc.)
-│  ├─ partials/            # reusable HTML partials (header, footer, components)
-│  ├─ public/              # файли, що потрапляють у root під час деплою (favicon, robots)
-│  ├─ index.html           # головна сторінка (entry)
-│  └─ main.js              # точка входу JS (ініціалізація, modal logic, interactions)
+├─ assets/             # static resources (logo, icons, images, fonts)
+├─ src/                # main project files
+│  ├─ css/              # styles (styles.css or scss files)
+│  ├─ img/              # images used within src (hero, cards etc.)
+│  ├─ partials/         # reusable HTML partials (header, footer, components)
+│  ├─ public/           # files copied to the root directory during deployment (favicon, robots)
+│  ├─ index.html        # main page (entry)
+│  └─ main.js           # JS entry point (initialization, modal logic, interactions)
 ```
 👥 My Contributions
 Facilitated agile workflow as Scrum Master (standups, planning, coordination)
