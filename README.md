@@ -54,22 +54,30 @@ Clone the repo
 
 bash
 Копіювати код
+```
 git clone https://github.com/vitalii-cherukha/Green-dream.git
+```
 Install dependencies
 
 bash
 Копіювати код
+```
 npm install
 Run dev server
+```
 
 bash
 Копіювати код
+```
 npm run dev
 Build for production
+```
 
 bash
 Копіювати код
+```
 npm run build
+```
 Future Improvements
 Add interactive filtering or product sections
 
